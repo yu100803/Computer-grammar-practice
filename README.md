@@ -9,7 +9,12 @@ The knowledge acquired
   <li> copy the search webites. (Not recommended.)<br>
   <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQIxe9mQdxfJWw1RDXb8wquk4OQdG008PypBJYicEcYfA&s=10" alt="cat" width="100" />
   </li>
-  <li>To place an image on our web page.
+  <li>To place an image on our web page.<br>
     <img src="images/cat.jpeg" alt="cat" width="100" />
   </li>
 </ol>
+<h2>9/2/2026<br>Images as link</h2>
+<p>That can open websites(What you set up) in the pictures. </p>
+<a href="http://www.google.com" target="_blank">
+<img src="images/cat.jpeg" alt="cat" width="100"/>
+</a>
