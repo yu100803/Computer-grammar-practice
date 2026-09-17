@@ -44,8 +44,8 @@
   </li>
   <li>
     <p>Add boredr:browsers will display the table with vertical and horizontal borders around each cell. This makes
-the table a bit easier to view.<br>Like this:</p>
-    <p>the first one is boredr=1</p><br>
+the table is a bit easier to view.<br>Like this:</p>
+    <p>This is boredr=1</p><br>
     <table boredr="1">
     <tr>
       <td></td>
@@ -60,21 +60,5 @@ the table a bit easier to view.<br>Like this:</p>
       <td></td>
     </tr>
     </table>
-      <br>
-      <p>the second one is border="4"</p>
-     <table boredr="4">
-    <tr>
-      <td></td>
-      <td></td>
-    </tr>
-     <tr>
-      <td></td>
-      <td></td>
-    </tr>
-       <tr>
-      <td></td>
-      <td></td>
-    </tr>
-     </table>
   </li>
 </ol>
