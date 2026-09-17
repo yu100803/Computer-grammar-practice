@@ -1,5 +1,5 @@
 # Computer-grammar-practice
-The knowledge acquired 
+<h1>HTML</h1>
 <h2> 8/21/2026<br>Links</h2>
 <a href="http://www.google.com" target="_blank">look it up on Google </a>
 <p> Have a target can open up a new window. If you don't have a target, it can't open.</p>
@@ -14,7 +14,67 @@ The knowledge acquired
   </li>
 </ol>
 <h2>9/2/2026<br>Images as link</h2>
-<p>That can open websites(What you set up) in the pictures. </p>
+<p>That can open websites(What you set up) in the pictures.(This is have "target") </p>
 <a href="http://www.google.com" target="_blank">
 <img src="images/cat.jpeg" alt="cat" width="100"/>
 </a>
+<h2>9/4/2026<br>Basic table</h2>
+<ol>
+<li><p>This is one row</p>
+<table>
+  <tr>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+</table></li>
+  <li>
+    <p>This is one column</p>
+    <table>
+      <tr>
+        <td></td>
+      </tr>
+      <tr>
+        <td></td>
+      </tr>
+      <tr>
+        <td></td>
+      </tr>
+    </table>
+  </li>
+  <li>
+    <p>Add boredr:browsers will display the table with vertical and horizontal borders around each cell. This makes
+the table a bit easier to view.<br>Like this:</p>
+    <p>the first one is boredr=1</p><br>
+    <table boredr="1">
+    <tr>
+      <td></td>
+      <td></td>
+    </tr>
+     <tr>
+      <td></td>
+      <td></td>
+    </tr>
+       <tr>
+      <td></td>
+      <td></td>
+    </tr>
+    </table>
+      <br>
+      <p>the second one is border="4"</p>
+     <table boredr="4">
+    <tr>
+      <td></td>
+      <td></td>
+    </tr>
+     <tr>
+      <td></td>
+      <td></td>
+    </tr>
+       <tr>
+      <td></td>
+      <td></td>
+    </tr>
+     </table>
+  </li>
+</ol>
