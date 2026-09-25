@@ -62,5 +62,3 @@ the table is a bit easier to view.<br>Like this:</p>
     </table>
   </li>
 </ol>
-<h2>CSS</h2>
-<h3>9/6/2026<br>What is CSS</h3>
