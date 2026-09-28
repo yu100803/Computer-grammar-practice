@@ -10,7 +10,7 @@
   <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQIxe9mQdxfJWw1RDXb8wquk4OQdG008PypBJYicEcYfA&s=10" alt="cat" width="100" />
   </li>
   <li>To place an image on our web page.<br>
-    <img src="images/cat.jpeg" alt="cat" width="100" />
+    <img src="images/University.png" alt="cat" width="100" />
   </li>
 </ol>
 <h3>9/2/2026<br>Images as link</h3>
