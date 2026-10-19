@@ -8,7 +8,66 @@
 </ol>
 <h3>Three ways to use CSS</h3>
 <ol>
-  <li>Inline Style - CSS code is placed directly into an XHTML element within the &lt;body&gt; section of a web page.</li>
-  <li>Internal Style Sheet - CSS code is placed into a separate, dedicated area within the &lt;head&gt; section of a web page.</li>
-  <li>External Style Sheet - CSS code is placed into a separate computer file and then linked to a web page.</li>
+  <li>Inline Style - CSS code is placed directly into an XHTML element within the &lt;body&gt; section of a web page.<br/>
+  For example:<br/>&lt;h2 style="color:red;"&gt;CAUTION: Icy Road Conditions&lt;/h2&gt;</li>
+  <li>Internal Style Sheet - CSS code is placed into a separate, dedicated area within the &lt;head&gt; section of a web page.<br/>
+  For example:<br/>
+  &lt;head&gt;<br/>
+...<br/>
+&lt;style&gt;<br/>
+h2 {color:red;}<br/>
+&lt;/style&gt;<br/>
+&lt;/head&gt;<br/>
+&lt;body&gt;<br/>
+&lt;h2&gt;CAUTION: Icy Road Conditions&lt;/h2&gt;<br/>
+&lt;h2&gt;Please Slow Down!&lt;/h2&gt;<br/>
+&lt;/body&gt;
+</li>
+  <li>External Style Sheet - CSS code is placed into a separate computer file and then linked to a web page.
+  For example<br/>
+  style.css (separate file):<br/>h2{color:red;}<br/>
+  &lt;head&gt;<br/>
+&lt;link rel="stylesheet" type="text/css" href="style.css" /&gt;<br/>
+...<br/> 
+&lt;/head&gt;<br/>
+&lt;body&gt;<br/>
+&lt;h2&gt;CAUTION: Icy Road Conditions&lt;/h2&gt;<br/>
+&lt;h2&gt;Please Slow Down!&lt;/h2&gt;<br/>
+&lt;/body&gt;
+  </li>
 </ol>
+<h2>CSS Text Properties</h2>
+<table>
+  <tr>
+    <th>Property</th>
+    <th>Some Possible Values</th>
+  </tr>
+  <tr>
+    <td>text-align:</td>
+    <td>center, left, right, justify</td>
+  </tr>
+  <tr>
+    <td>text-decoration: </td>
+    <td>underline, line-through, blink</td>
+  </tr>
+  <tr>
+    <td>color: </td>
+    <td>blue, green, yellow,#3297a8,etc.</td>
+  </tr>
+  <tr>
+    <td>font-family:</td>
+    <td>Arial, Verdana, "Times New Roman"</td>
+  </tr>
+  <tr>
+    <td>font-size: </td>
+    <td>large, 120%, 20px (pixels)</td>
+  </tr>
+  <tr>
+    <td>font-weight: </td>
+    <td>bold, normal</td>
+  </tr>
+  <tr>
+    <td>font-style: </td>
+    <td>italic, normal</td>
+  </tr>
+</table>
