@@ -1,6 +1,10 @@
 # Computer-grammar-practice
-<h2>HTML</h2>
-<h3> 8/21/2026<br>Links</h3>
+## content
+- [Jump to HTML ](#HTML)
+- [Jump to CSS ](#CSS)
+
+<h2 id="HTML">HTML</h2>
+<h3> 8/21/2026<br/>Links</h3>
 For example:<br/>
 &lt;a href="http://www.google.com" target="_blank"&gt;look it up on Google &lt;/a&gt;<br/>
 <a href="http://www.google.com" target="_blank">look it up on Google </a>
@@ -19,7 +23,7 @@ For example:<br/>
     <img src="images/University.png" alt="cat" width="100" />
   </li>
 </ol>
-<h3>9/2/2026<br>Images as link</h3>
+<h3>9/2/2026<br/>Images as link</h3>
 <p>That can open websites(What you set up) in the pictures.(This is have "target") </p>
 &lt;a href="http://www.google.com" target="_blank"&gt;<br/>
 &lt;img src="images/cat.jpeg" alt="cat" width="100"/&gt;<br/>
@@ -27,16 +31,9 @@ For example:<br/>
 <a href="http://www.google.com" target="_blank">
 <img src="images/cat.jpeg" alt="cat" width="100"/>
 </a>
-<h3>9/4/2026<br>Basic table</h3>
+<h3>9/4/2026<br/>Basic table</h3>
 <ol>
-<li><p>This is one row</p>
-  &lt;table&gt;<br/>
-  &emsp;&lt;tr&gt;<br/>
-  &emsp;&emsp;&lt;td&gt;&lt;/td&gt;<br/>
-  &emsp;&emsp;&lt;td&gt;&lt;/td&gt;<br/>
-  &emsp;&emsp;&lt;td&gt;&lt;/td&gt;<br/>
-  &emsp;&lt;/tr&gt;<br/>
-  &lt;/table&gt;
+<li><p>This is one row</p> 
   <table>
     <tr>
       <td></td>
@@ -44,9 +41,27 @@ For example:<br/>
       <td></td>
     </tr>
   </table>
+  &lt;table&gt;<br/>
+  &emsp;&lt;tr&gt;<br/>
+  &emsp;&emsp;&lt;td&gt;&lt;/td&gt;<br/>
+  &emsp;&emsp;&lt;td&gt;&lt;/td&gt;<br/>
+  &emsp;&emsp;&lt;td&gt;&lt;/td&gt;<br/>
+  &emsp;&lt;/tr&gt;<br/>
+  &lt;/table&gt;
 </li>
 <li>
     <p>This is one column</p>
+  <table>
+      <tr>
+        <td></td>
+      </tr>
+      <tr>
+        <td></td>
+      </tr>
+      <tr>
+        <td></td>
+      </tr>
+    </table>
   &lt;table><br/>
   &emsp;&lt;tr&gt;<br/>
   &emsp;&emsp;&lt;td&gt;&lt;/td&gt;<br/>
@@ -58,35 +73,10 @@ For example:<br/>
   &emsp;&emsp;&lt;td&gt;&lt;/td&gt;<br/>
   &emsp;&lt;/tr&gt;<br/>
   &lt;/table&gt;<br/>
-    <table>
-      <tr>
-        <td></td>
-      </tr>
-      <tr>
-        <td></td>
-      </tr>
-      <tr>
-        <td></td>
-      </tr>
-    </table>
   </li>
   <li>
     <p>Add boredr:browsers will display the table with vertical and horizontal borders around each cell. This makes
 the table is a bit easier to view.<br>Like this:</p>
-    &lt;table boredr="1"&gt;<br/>
-    &emsp;&lt;tr&gt;<br/>
-    &emsp;&emsp;&lt;td&gt;&lt;/td&gt;<br/>
-    &emsp;&emsp;&lt;td&gt;&lt;/td&gt;<br/>
-    &emsp;&lt;/tr&gt;<br/>
-    &emsp;&lt;tr&gt;<br/>
-    &emsp;&emsp;&lt;td&gt;&lt;/td&gt;<br/>
-    &emsp;&emsp;&lt;td&gt;&lt;/td&gt;<br/>
-    &emsp;&lt;/tr&gt;<br/>
-    &emsp;&lt;tr&gt;<br/>
-    &emsp;&emsp;&lt;td&gt;&lt;/td&gt;<br/>
-    &emsp;&emsp;&lt;td&gt;&lt;/td&gt;<br/>
-    &emsp;&lt;/tr&gt;<br/>
-    &lt;/table&gt;<br/>
     <table boredr="1">
     <tr>
       <td></td>
@@ -101,5 +91,25 @@ the table is a bit easier to view.<br>Like this:</p>
       <td></td>
     </tr>
     </table>
+    &lt;table boredr="1"&gt;<br/>
+    &emsp;&lt;tr&gt;<br/>
+    &emsp;&emsp;&lt;td&gt;&lt;/td&gt;<br/>
+    &emsp;&emsp;&lt;td&gt;&lt;/td&gt;<br/>
+    &emsp;&lt;/tr&gt;<br/>
+    &emsp;&lt;tr&gt;<br/>
+    &emsp;&emsp;&lt;td&gt;&lt;/td&gt;<br/>
+    &emsp;&emsp;&lt;td&gt;&lt;/td&gt;<br/>
+    &emsp;&lt;/tr&gt;<br/>
+    &emsp;&lt;tr&gt;<br/>
+    &emsp;&emsp;&lt;td&gt;&lt;/td&gt;<br/>
+    &emsp;&emsp;&lt;td&gt;&lt;/td&gt;<br/>
+    &emsp;&lt;/tr&gt;<br/>
+    &lt;/table&gt;<br/>
   </li>
 </ol>
+<h2 id="CSS">Into CSS</h2>
+<h3>What is CSS</h3>
+
+[Detailed down to README2.md](README2.md)
+
+<h3>9/11/1026<br/>CSS Classes & ID's</h3>
