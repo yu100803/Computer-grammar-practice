@@ -1,15 +1,21 @@
 # Computer-grammar-practice
 ## content
-- [Jump to HTML ](#HTML)
-- [Jump to CSS ](#CSS)
+1. [Jump to HTML ](#HTML)
+   1. [link](#Links)
+   2. [image](#image)
+   3. [images as link](#images-as-link)
+   4. [Basic table](#basic-table)
+2. [Jump to CSS ](#CSS)
+   1. [introduce CSS](#introduce)
+   2. [classes and IDs](#class-and-id)
 
 <h2 id="HTML">HTML</h2>
-<h3> 8/21/2026<br/>Links</h3>
+<h3 id="Links"> 8/21/2026<br/>Links</h3>
 For example:<br/>
 &lt;a href="http://www.google.com" target="_blank"&gt;look it up on Google &lt;/a&gt;<br/>
 <a href="http://www.google.com" target="_blank">look it up on Google </a>
 <p> Have a target can open up a new window. If you don't have a target, it can't open.</p>
-<h3>8/27/2026<br>Image </h3>
+<h3 id="image">8/27/2026<br>Image </h3>
 <ol>
   <li>Have two ways</li>
   <li> copy the search webites. (Not recommended.)<br>
@@ -23,7 +29,7 @@ For example:<br/>
     <img src="images/University.png" alt="cat" width="100" />
   </li>
 </ol>
-<h3>9/2/2026<br/>Images as link</h3>
+<h3 id="images-as-link">9/2/2026<br/>Images as link</h3>
 <p>That can open websites(What you set up) in the pictures.(This is have "target") </p>
 &lt;a href="http://www.google.com" target="_blank"&gt;<br/>
 &lt;img src="images/cat.jpeg" alt="cat" width="100"/&gt;<br/>
@@ -31,7 +37,7 @@ For example:<br/>
 <a href="http://www.google.com" target="_blank">
 <img src="images/cat.jpeg" alt="cat" width="100"/>
 </a>
-<h3>9/4/2026<br/>Basic table</h3>
+<h3 id="basic-table">9/4/2026<br/>Basic table</h3>
 <ol>
 <li><p>This is one row</p> 
   <table>
@@ -108,8 +114,9 @@ the table is a bit easier to view.<br>Like this:</p>
   </li>
 </ol>
 <h2 id="CSS">Into CSS</h2>
-<h3>What is CSS</h3>
+<h3 id="introduce">What is CSS</h3>
 
 [Detailed down to README2.md](README2.md)
 
-<h3>9/11/1026<br/>CSS Classes & ID's</h3>
+<h3 id="class-and-id">9/11/1026<br/>CSS Classes and ID's</h3>
+<p> Styling declarations for IDs begin with the pound sign(#) and for classes with a period(.). The id and class attribute, respectively, are added to page elements.</p>
