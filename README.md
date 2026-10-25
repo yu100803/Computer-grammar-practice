@@ -119,4 +119,10 @@ the table is a bit easier to view.<br>Like this:</p>
 [Detailed down to README2.md](README2.md)
 
 <h3 id="class-and-id">9/11/1026<br/>CSS Classes and ID's</h3>
-<p> Styling declarations for IDs begin with the pound sign(#) and for classes with a period(.). The id and class attribute, respectively, are added to page elements.</p>
+<ol>
+   <li>Styling declarations for IDs begin with the pound sign(#) and for classes with a period(.). The id and class attribute, respectively, are added to page elements.</li>
+   <li>IDs can be applied to one and only one element in a web document. </li>
+   <li>Classes can be applied to an unlimited number of elements, even different types of elements on the same page. </li>
+   <li>If conflicting styles from an ID and class are applied to the same element, the ID will outrank the class in the c</li>
+   <li>the &lt;span&gt; element does nothing on its own. Only once we associate it with a CSS class will the text inside the &lt;span&gt; be affected.</li>
+</ol>
