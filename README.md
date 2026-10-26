@@ -199,7 +199,7 @@ the table is a bit easier to view.<br>
 &lt;/table&gt;     
    </li>
    <li>
-      To add a caption to the table, we use the <caption> element immediately after the opening <table> tag. The text enclosed within the <caption> element will be displayed above the table and centered.
+      To add a caption to the table, we use the &lt;caption&gt; element immediately after the opening &lt;table&gt; tag. The text enclosed within the &lt;caption&gt; element will be displayed above the table and centered.
    </li>
    <li>
       Many other elements can be placed inside table cells, including paragraphs, links, images, lists, and even other tables.<br/>
@@ -267,5 +267,37 @@ the table is a bit easier to view.<br>
             <td>padding</td>
             <td>padding (white space around content) of element</td>
          </tr>
+         </table>
+      </li>
+      <li><br/>
+         <table>
+            <tr>
+               <th colspan="2" align="center">Borders</th>
+            </tr>
+            <tr>
+               <th>Style</th>
+               <th>Description</th>
+            </tr>
+            <tr>
+               <td>border-style</td>
+               <td>type of border: none, solid, deshed, dotted, double, groove, ridge, inset, outset</td>
+            </tr>
+            <tr>
+               <td>border-color</td>
+               <td>color of border</td>
+            </tr>
+            <tr>
+               <td>border-width</td>
+               <td>width of border, measured in pixels. Also available: thin, medium, and thick</td>
+            </tr>
+            <tr>
+               <td>border-collapse</td>
+               <td>collapse: borders display as single border. separate: borders are detached(default)</td>
+            </tr>
+         </table><br/>
+         <p> CSS border shorthand:By convention, the properties are ordered as <b>border: border-width border-style border-color;</b> (The color portion may be omitted.) </p>
+   </li>
+   <li>
+      By setting the <b>padding</b> property, we can make sure there is at least that much white space around our cell contents. This keeps the actual cell contents from displaying too closely to the borders.
    </li>
 </ol>
