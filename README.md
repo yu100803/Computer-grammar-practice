@@ -147,7 +147,7 @@ the table is a bit easier to view.<br>
   <td>Row 3 Col 2</td>
   <td>Row 3 Col 3</td>
  </tr>
-</table><br/>
+</table>
 &lt;table border="1"&gt;<br/>
 &emsp;&lt;tr&gt;<br/>
 &emsp;&emsp;&lt;td colspan="3"&gt;Row 1 Col 1-3&lt;/td&gt;<br/>
@@ -182,20 +182,20 @@ the table is a bit easier to view.<br>
   <td>Row 3 Col 3</td>
 </tr>
 </table> 
-&lt;table border="1"&gt;
-&lt;tr&gt;
-&lt;td rowspan="3"&gt;Col 1 Row 1-3&lt;/td&gt;
-&lt;td&gt;Row 1 Col 2&lt;/td&gt;
-&lt;td&gt;Row 1 Col 3&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;Row 2 Col 2&lt;/td&gt;
-&lt;td&gt;Row 2 Col 3&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;Row 3 Col 2&lt;/td&gt;
-&lt;td&gt;Row 3 Col 3&lt;/td&gt;
-&lt;/tr&gt;
+&lt;table border="1"&gt;<br/>
+&emsp;&lt;tr&gt;<br/>
+&emsp;&emsp;&lt;td rowspan="3"&gt;Col 1 Row 1-3&lt;/td&gt;<br/>
+&emsp;&emsp;&lt;td&gt;Row 1 Col 2&lt;/td&gt;<br/>
+&emsp;&emsp;&lt;td&gt;Row 1 Col 3&lt;/td&gt;<br/>
+&emsp;&lt;/tr&gt;<br/>
+&emsp;&lt;tr&gt;<br/>
+&emsp;&emsp;&lt;td&gt;Row 2 Col 2&lt;/td&gt;<br/>
+&emsp;&emsp;&lt;td&gt;Row 2 Col 3&lt;/td&gt;<br/>
+&emsp;&lt;/tr&gt;<br/>
+&emsp;&lt;tr&gt;<br/>
+&emsp;&emsp;&lt;td&gt;Row 3 Col 2&lt;/td&gt;<br/>
+&emsp;&emsp;&lt;td&gt;Row 3 Col 3&lt;/td&gt;<br/>
+&emsp;&lt;/tr&gt;<br/>
 &lt;/table&gt;     
    </li>
    <li>
@@ -233,5 +233,39 @@ the table is a bit easier to view.<br>
   </td>
  </tr>
 </table>
+   </li>
+   <li><br/>
+      <table>
+         <tr>
+            <th colspan="2" align="center">Table Styling</th>
+         </tr>
+         <tr>
+            <th>Style</th>
+            <th>Description</th>
+         </tr>
+         <tr>
+            <td>width</td>
+            <td>width of element</td>
+         </tr>
+         <tr>
+            <td>background-color</td>
+            <td>background color of element</td>
+         </tr>
+         <tr>
+            <td>color</td>
+            <td>color of text in element</td>
+         </tr>
+         <tr>
+            <td>text-align</td>
+            <td>horizontal text alignment of element</td>
+         </tr>
+         <tr>
+            <td>border</td>
+            <td>border thickness and style of element</td>
+         </tr>
+         <tr>
+            <td>padding</td>
+            <td>padding (white space around content) of element</td>
+         </tr>
    </li>
 </ol>
