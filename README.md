@@ -9,6 +9,7 @@
    1. [introduce CSS](#introduce)
    2. [classes and IDs](#class-and-id)
    3. [advanced tables](#advanced-tables)
+   4. [CSS Box Model](#CSS-Box-Model)
 
 <h2 id="HTML">HTML</h2>
 <h3 id="Links"> 8/21/2026<br/>Links</h3>
@@ -294,10 +295,29 @@ the table is a bit easier to view.<br>
                <td>border-collapse</td>
                <td>collapse: borders display as single border. separate: borders are detached(default)</td>
             </tr>
-         </table><br/>
+         </table>
          <p> CSS border shorthand:By convention, the properties are ordered as <b>border: border-width border-style border-color;</b> (The color portion may be omitted.) </p>
    </li>
    <li>
       By setting the <b>padding</b> property, we can make sure there is at least that much white space around our cell contents. This keeps the actual cell contents from displaying too closely to the borders.
    </li>
+   <li>
+      By setting the <b>margin</b> property, control the distance between elements and other elements.
+   </li>
 </ol>
+<h3 id="CSS-Box-Model">9/25/2026<br/>CSS Box Model</h3>
+<p>We use the &lt;div&gt;element, by setting the width and height attributes via CSS, we can reserve a precise amount of space on our page for specific content.</p>
+<b>For example:</b><br/>
+&lt;style&gt;<br/>
+.box200 {<br/>
+width: 200px;<br/>
+height: 200px;<br/>
+border: 1px solid black;<br/>
+color: blue;<br/>
+}<br/>
+&lt;/style&gt;<br/>
+...<br/>
+&lt;div class="box200"&gt;<br/>
+This is a 200 by 200 pixel box with<br/>
+a 1px border.<br/>
+&lt;/div&gt;
